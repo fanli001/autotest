@@ -1,0 +1,43 @@
+{
+  "ff41e318fb4a4f61d55fee1cfdd34f51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28ec2023492d4187",
+      "reportUrl" : "http://192.168.1.104:8080/job/autotest001/1/allure/#testresult/28ec2023492d4187",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"username\"]\"}\n  (Session info: chrome=85.0.4183.83)",
+      "time" : {
+        "start" : 1605255518968,
+        "stop" : 1605255529439,
+        "duration" : 10471
+      }
+    } ]
+  },
+  "44aecd1c0f136bec9fd8a83d03269082" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53e8dba97a62c7cc",
+      "reportUrl" : "http://192.168.1.104:8080/job/autotest001/1/allure/#testresult/53e8dba97a62c7cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605255509514,
+        "stop" : 1605255518963,
+        "duration" : 9449
+      }
+    } ]
+  }
+}

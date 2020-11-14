@@ -1,0 +1,19 @@
+/*.side-nav__brand {
+  background: url('logo.png') no-repeat left center !important;
+  margin-left: 10px;
+}*/
+
+.side-nav__brand {
+    background: url(logo.png) no-repeat left center !important;
+    margin-left: -2px;
+    margin-right: -12px;
+    margin-top: -16px;
+    margin-bottom: -20px;
+    height: 50px;
+    background-size: contain !important;
+}
+
+.side-nav__brand-text {
+    padding-left: 15px;
+    display: none;
+}

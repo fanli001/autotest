@@ -1,0 +1,21 @@
+[ {
+  "uid" : "28ec2023492d4187",
+  "name" : "登录失败",
+  "time" : {
+    "start" : 1605255518968,
+    "stop" : 1605255529439,
+    "duration" : 10471
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "53e8dba97a62c7cc",
+  "name" : "登录成功",
+  "time" : {
+    "start" : 1605255509514,
+    "stop" : 1605255518963,
+    "duration" : 9449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

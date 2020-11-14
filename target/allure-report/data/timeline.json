@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-N0PVVU7",
+    "children" : [ {
+      "name" : "15860-MainThread",
+      "children" : [ {
+        "name" : "登录失败",
+        "uid" : "28ec2023492d4187",
+        "parentUid" : "66f808a0bc23234638b55c70a94b123d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605255518968,
+          "stop" : 1605255529439,
+          "duration" : 10471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录失败', 'description': '登录失败的用例，用来测试用户名密码错误', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"loginform\"]/div/div[6]/a'}]}" ]
+      }, {
+        "name" : "登录成功",
+        "uid" : "53e8dba97a62c7cc",
+        "parentUid" : "66f808a0bc23234638b55c70a94b123d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605255509514,
+          "stop" : 1605255518963,
+          "duration" : 9449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录成功', 'description': '登录成功的用例，用来测试用户名密码正确登录', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '等待', 'method': 'sleep', 'time': 2}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"loginform\"]/div/div[6]/a'}, {'name': '等待', 'method': 'sleep', 'time': 2}]}" ]
+      } ],
+      "uid" : "66f808a0bc23234638b55c70a94b123d"
+    } ],
+    "uid" : "f1d69c82c2a7bc435338a37bfea5d337"
+  } ]
+}

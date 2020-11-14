@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ddt",
+    "children" : [ {
+      "name" : "commerce_test",
+      "children" : [ {
+        "name" : "test_Comm",
+        "children" : [ {
+          "name" : "登录成功",
+          "uid" : "53e8dba97a62c7cc",
+          "parentUid" : "667e916f60de56074d7e8c7c626a92a3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605255509514,
+            "stop" : 1605255518963,
+            "duration" : 9449
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'title': '登录成功', 'description': '登录成功的用例，用来测试用户名密码正确登录', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '等待', 'method': 'sleep', 'time': 2}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"loginform\"]/div/div[6]/a'}, {'name': '等待', 'method': 'sleep', 'time': 2}]}" ]
+        }, {
+          "name" : "登录失败",
+          "uid" : "28ec2023492d4187",
+          "parentUid" : "667e916f60de56074d7e8c7c626a92a3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1605255518968,
+            "stop" : 1605255529439,
+            "duration" : 10471
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'title': '登录失败', 'description': '登录失败的用例，用来测试用户名密码错误', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"loginform\"]/div/div[6]/a'}]}" ]
+        } ],
+        "uid" : "667e916f60de56074d7e8c7c626a92a3"
+      } ],
+      "uid" : "ec5cbd811264b912a21cd302d6a74a48"
+    } ],
+    "uid" : "c89bb59eb3116fa65be52387c9b08d60"
+  } ]
+}

@@ -1,0 +1,9 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Nov 13 16:18:38 CST 2020","Fri Nov 13 16:18:49 CST 2020","10471","ddt","commerce_test","test_Comm","","","登录失败","
+        登录成功的用例
+        :return: None
+        "
+"passed","Fri Nov 13 16:18:29 CST 2020","Fri Nov 13 16:18:38 CST 2020","9449","ddt","commerce_test","test_Comm","","","登录成功","
+        登录成功的用例
+        :return: None
+        "

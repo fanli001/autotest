@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "电商项目web自动化",
+    "children" : [ {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "登录成功",
+        "uid" : "53e8dba97a62c7cc",
+        "parentUid" : "b7b4f0ce48567cc7ea1839b1b6b27eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605255509514,
+          "stop" : 1605255518963,
+          "duration" : 9449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录成功', 'description': '登录成功的用例，用来测试用户名密码正确登录', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '等待', 'method': 'sleep', 'time': 2}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"loginform\"]/div/div[6]/a'}, {'name': '等待', 'method': 'sleep', 'time': 2}]}" ]
+      }, {
+        "name" : "登录失败",
+        "uid" : "28ec2023492d4187",
+        "parentUid" : "b7b4f0ce48567cc7ea1839b1b6b27eb4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605255518968,
+          "stop" : 1605255529439,
+          "duration" : 10471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录失败', 'description': '登录失败的用例，用来测试用户名密码错误', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"loginform\"]/div/div[6]/a'}]}" ]
+      } ],
+      "uid" : "b7b4f0ce48567cc7ea1839b1b6b27eb4"
+    } ],
+    "uid" : "71823d955ab5164292daee9177ece246"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"username\"]\"}\n  (Session info: chrome=85.0.4183.83)",
+      "children" : [ {
+        "name" : "登录失败",
+        "uid" : "28ec2023492d4187",
+        "parentUid" : "c298b27b427edec489d8bd65f1cbe16f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605255518968,
+          "stop" : 1605255529439,
+          "duration" : 10471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录失败', 'description': '登录失败的用例，用来测试用户名密码错误', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"loginform\"]/div/div[6]/a'}]}" ]
+      } ],
+      "uid" : "c298b27b427edec489d8bd65f1cbe16f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,8 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "http://192.168.1.104:8080/job/autotest001/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 19925
+  }
+} ]
